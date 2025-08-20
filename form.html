@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML form creat</h1>
+    <form">
+        <fieldset>
+            <legend>personal information</legend>
+            <label for="text">text</label>
+            <input type="text" id="text"><br>    
+            <label for="password">password</label>
+            <input type="password" id="password">
+        <br>
+           <label for="email">email</label>
+           <input type="email" id="email">
+        <br>
+            <label for="number">number</label>
+            <input type="number" id="number">
+        <br>
+            <label for="telephone">telephone</label>
+            <input type="telephone" id="telephone">
+        <br>
+            <label for="website">website</label>
+            <input type="website" id="website">
+        </fieldset> 
+        
+        <fieldset>
+            <legend>date & time</legend>
+            date: <input type="date"><br>
+            datetime-local: <input type="datetime-local"><br>
+            month: <input type="month"><br>
+            week: <input type="week"><br>
+            time: <input type="time">
+        </fieldset>
+        <fieldset>
+            <legend>chioces</legend>
+            Gender: <br>
+            <input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="female">female<br>
+
+            Skills (select all that apply):<br>
+            <input type="checkbox" name="Skill" value="html">html
+            <input type="checkbox" name="skill" value="css">css
+            <input type="checkbox" name="skill" value="js">javascript<br>
+
+            favorite color:<input type="color"><br>
+            skill level (0-100): <input type="range" min="0" max="100"><br>
+            select country:
+            <select>
+                <option>--choose--</option>
+                <option>nigeria</option>
+                <option>usa</option>
+                <option>canada</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>uploads & misc</legend>
+            upload file: <input type="file"><br>
+            search: <input type="search"><br>
+            hidden input <input type="hidden" value="hiddenvalue"><br>
+            message:<br>
+            <textarea></textarea>
+        </fieldset>
+        <input type="submit" value="submit form">
+    </form>
+</body>
+</html>
